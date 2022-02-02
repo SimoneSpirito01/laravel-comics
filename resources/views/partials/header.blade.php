@@ -20,9 +20,13 @@
                   <li><a href="#">Videos</a></li>
                   <li><a href="#">Fans</a></li>
                   <li><a href="#">News</a></li>
-                  <li><a href="#">Shop</a></li>
+                  <li><a href="#" class="last">Shop<span class="triangle">&#9660;</span></a></li>
               </ul>
           </nav>
+          <div class="search">
+              <input type="search" placeholder="Search">
+              <i class="fas fa-search"></i>
+          </div>
     </div>
     <div class="hero"></div>
 </header>

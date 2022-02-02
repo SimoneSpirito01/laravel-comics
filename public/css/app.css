@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -59,9 +59,44 @@ header .container ul a {
   text-decoration: none;
   padding: 0 10px;
 }
+header .container ul a.last {
+  display: flex;
+  border-bottom: 4px solid transparent;
+}
 header .container ul a.active, header .container ul a:hover {
   color: #2982f9;
   border-bottom: 4px solid #2982f9;
+}
+header .container ul .triangle {
+  color: #2982f9;
+  font-size: 8px;
+  margin-left: 9px;
+}
+header .container .search {
+  border-bottom: 2px solid #2982f9;
+  padding: 5px;
+}
+header .container .search input {
+  width: 125px;
+  border: none;
+}
+header .container .search input::-moz-placeholder {
+  font-size: 15px;
+  text-align: right;
+  color: black;
+}
+header .container .search input:-ms-input-placeholder {
+  font-size: 15px;
+  text-align: right;
+  color: black;
+}
+header .container .search input::placeholder {
+  font-size: 15px;
+  text-align: right;
+  color: black;
+}
+header .container .search svg {
+  font-size: 14px;
 }
 header .hero {
   width: 100%;
