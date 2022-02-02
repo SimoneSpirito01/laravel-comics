@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;
-
-700&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,41 +22,34 @@ header .blue-bar {
   color: white;
   background-color: #2982f9;
 }
-
 header .blue-bar .container {
   height: 23px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-
 header .blue-bar .container > span {
   margin-left: 55px;
 }
-
 header .blue-bar .container > span .triangle {
   font-size: 9px;
   margin-left: 4px;
 }
-
 header .container {
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header .container img {
   width: 70px;
 }
-
 header .container ul {
   font-size: 14px;
   text-transform: uppercase;
   list-style: none;
   display: flex;
 }
-
 header .container ul a {
   display: block;
   height: 120px;
@@ -68,17 +59,13 @@ header .container ul a {
   text-decoration: none;
   padding: 0 10px;
 }
-
-header .container ul a.active,
-header .container ul a:hover {
+header .container ul a.active, header .container ul a:hover {
   color: #2982f9;
   border-bottom: 4px solid #2982f9;
 }
-
 header .hero {
   width: 100%;
   height: 370px;
-  background-image: url({{asset}});
+  background-image: url("../images/jumbotron.jpg");
   background-size: cover;
 }
-
