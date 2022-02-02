@@ -12,9 +12,9 @@
           <nav>
               <ul>
                   <li><a href="#">Characters</a></li>
-                  <li><a class="active" href="#">Comics</a></li>
-                  <li><a href="#">Movies</a></li>
-                  <li><a href="#">Tv</a></li>
+                  <li><a href="/" class="link">Comics</a></li>
+                  <li><a href="/movies" class="link">Movies</a></li>
+                  <li><a href="/tv" class="link">Tv</a></li>
                   <li><a href="#">Games</a></li>
                   <li><a href="#">Collectibles</a></li>
                   <li><a href="#">Videos</a></li>

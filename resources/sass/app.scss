@@ -21,6 +21,7 @@ header {
 
             > span {
                 margin-left: 55px;
+                cursor: pointer;
 
                 .triangle {
                     font-size: 9px;
@@ -59,7 +60,7 @@ header {
                     border-bottom: 4px solid transparent;
                 }
     
-                &.active, &:hover {
+                &.active, &.link:hover {
                     color: $mainColor;
                     border-bottom: 4px solid $mainColor;
                 }
@@ -255,6 +256,10 @@ footer {
                 a {
                     text-decoration: none;
                     color: $mainColor;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
     

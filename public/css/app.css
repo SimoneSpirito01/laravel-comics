@@ -30,6 +30,7 @@ header .blue-bar .container {
 }
 header .blue-bar .container > span {
   margin-left: 55px;
+  cursor: pointer;
 }
 header .blue-bar .container > span .triangle {
   font-size: 9px;
@@ -63,7 +64,7 @@ header .container ul a.last {
   display: flex;
   border-bottom: 4px solid transparent;
 }
-header .container ul a.active, header .container ul a:hover {
+header .container ul a.active, header .container ul a.link:hover {
   color: #2982f9;
   border-bottom: 4px solid #2982f9;
 }
@@ -230,6 +231,9 @@ footer .middle .container .copyright {
 footer .middle .container .copyright a {
   text-decoration: none;
   color: #2982f9;
+}
+footer .middle .container .copyright a:hover {
+  text-decoration: underline;
 }
 footer .middle .container .big-logo {
   width: 45%;

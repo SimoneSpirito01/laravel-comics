@@ -10,7 +10,19 @@
 <body>
     @include('partials.header')
     <main>
-        @yield('content')
+        <div class="content">
+            <div class="container">
+                <div class="title">
+                    <span>Current Series</span>
+                </div>
+                <div class="series">
+                    @yield('content')
+                </div>
+                <div class="load">
+                    <span>Load More</span>
+                </div>
+            </div>
+        </div>
     </main>
     @include('partials.footer')
 

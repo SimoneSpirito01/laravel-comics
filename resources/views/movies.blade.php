@@ -1,11 +1,11 @@
 @extends('layouts.base')
 
 @section('title')
-    DC Comics
+    DC Comics - Movies
 @endsection
 
 @section('content')
-    @foreach ($comics as $serie)
+    @foreach ($movies as $serie)
         <div class="serie">
             <div class="image">
                 <img src="{{$serie['thumb']}}" alt="{{$serie['title']}}">
