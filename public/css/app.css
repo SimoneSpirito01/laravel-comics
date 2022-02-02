@@ -69,3 +69,58 @@ header .hero {
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
 }
+
+main .content {
+  color: white;
+  background-color: #1c1c1c;
+}
+main .content .title span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 20px;
+  background-color: #2982f9;
+  transform: translateY(-50%);
+}
+main .content .series {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .content .series > * {
+  width: calc(16.6666666667% - 20px);
+  margin: 20px 10px;
+  cursor: pointer;
+  transition: transform 0.6s;
+}
+main .content .series > *:hover {
+  transform: scale(1.1);
+}
+main .content .series img {
+  width: 100%;
+  aspect-ratio: 0.9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main .content .series .text {
+  margin-top: 10px;
+}
+main .content .series .text span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+main .content .load {
+  text-align: center;
+  padding: 30px 0;
+}
+main .content .load span {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #2982f9;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+main .content .load span:hover {
+  background-color: #2f65ad;
+}
