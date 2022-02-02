@@ -52,8 +52,8 @@ header .container ul {
 }
 header .container ul a {
   display: block;
-  height: 120px;
-  line-height: 120px;
+  height: 100px;
+  line-height: 100px;
   color: #1c1c1c;
   font-weight: 700;
   text-decoration: none;
@@ -123,4 +123,136 @@ main .content .load span {
 }
 main .content .load span:hover {
   background-color: #2f65ad;
+}
+
+footer .top {
+  background-color: #2982f9;
+}
+footer .top .container {
+  display: flex;
+  justify-content: space-around;
+}
+footer .top .container .item {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  transition: transform 0.6s;
+  cursor: pointer;
+}
+footer .top .container .item:hover {
+  transform: scale(1.1);
+}
+footer .top .container .item img {
+  width: 50px;
+  margin-right: 15px;
+}
+footer .top .container .item .text {
+  font-size: 13px;
+}
+footer .middle {
+  color: white;
+  background-image: url(../images/footer-bg.jpg);
+}
+footer .middle .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .middle .container .cols {
+  display: flex;
+  padding: 40px 0 20px;
+}
+footer .middle .container .cols .col {
+  margin: 0 20px;
+}
+footer .middle .container .cols .col h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+footer .middle .container .cols .col ul {
+  list-style: none;
+  font-size: 14px;
+}
+footer .middle .container .cols .col ul li {
+  margin: 5px 0;
+  color: #948f8f;
+  cursor: pointer;
+}
+footer .middle .container .cols .col ul li:hover {
+  text-decoration: underline;
+}
+footer .middle .container .cols .col .col-top {
+  margin-bottom: 20px;
+}
+footer .middle .container .copyright {
+  margin-left: 20px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #948f8f;
+}
+footer .middle .container .copyright a {
+  text-decoration: none;
+  color: #2982f9;
+}
+footer .middle .container .big-logo {
+  width: 45%;
+  position: relative;
+  overflow: hidden;
+}
+footer .middle .container .big-logo img {
+  width: 120%;
+  max-width: 500px;
+  position: absolute;
+  right: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transform: translateY(-12%);
+  overflow: hidden;
+}
+footer .bottom {
+  background-color: #303030;
+}
+footer .bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+footer .bottom .container .sign-up {
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid #2982f9;
+  cursor: pointer;
+}
+footer .bottom .container .sign-up span {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+}
+footer .bottom .container .sign-up span:hover {
+  border-color: #2982f9;
+}
+footer .bottom .container .social {
+  display: flex;
+  align-items: center;
+}
+footer .bottom .container .social span {
+  color: #2982f9;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 15px;
+  cursor: pointer;
+}
+footer .bottom .container .social img {
+  width: 35px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+footer .bottom .container .social img:hover {
+  transform: scale(1.1);
 }
